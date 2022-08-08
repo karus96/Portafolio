@@ -1,0 +1,25 @@
+#Skills{
+
+    padding: 2rem;
+}
+#Skills_titulo{
+    text-align: center;
+}
+#Skills_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Skills_card{  
+    width: 300px;    
+    padding: 2rem;    
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+.Skills_card_imagenes{    
+
+}
+.Skills_card_imagenes_img{
+    width: 70px;    
+}

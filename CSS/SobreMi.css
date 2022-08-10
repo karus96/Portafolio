@@ -1,6 +1,18 @@
-.SobreMi_titulo{
-    background-color: red;
+.SobreMi{
+    background-color: #eaf2fd;    
+    }
+.SobreMi_titulo{       
+    padding-left: 5%;
+    font-size: 2rem; 
+    line-height: 5rem;
 }
-#SobreMi_img{
-    width: 25%;
+.SobreMi_texto{
+    text-align: justify;
+    padding-right: 25%;
+    padding-left: 5%;
+    line-height: 1.25rem;
+}
+.SobreMi_img{
+    padding-left: 5%;
+    width: 10%;
 }

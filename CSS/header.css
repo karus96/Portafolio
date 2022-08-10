@@ -1,0 +1,30 @@
+.Header {
+    margin: 1rem;
+}
+.Header .Container{    
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+.Header_titulo{
+    text-decoration: none;
+    color: #000000;	
+}
+.Header_item{
+    display: flex;    
+    
+}
+.Header_link{
+    padding: 10px;
+	margin-bottom: 10px;
+	color: #000000;	
+	text-decoration: none;	
+    
+
+}
+.Header_link:hover{
+    
+    border-bottom: 1px solid #9799A6;
+    transition: 0.50s;
+    
+}

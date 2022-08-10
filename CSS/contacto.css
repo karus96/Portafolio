@@ -1,0 +1,117 @@
+.Contacto{    
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;  
+    line-height: 1.75rem; 
+    background-color: #eaf2fd;   
+    height: 600px;
+}
+.Contacto .Container{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content:  space-between;
+}
+.Contacto_img{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    width: 80%;
+    height: 100%;
+}
+.Contacto_titulo{
+     font-size: 2rem; 
+}
+.Contacto_texto{
+
+}
+.Contacto_info{
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.Contacto_info_txt{
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: black;    
+    border: none;
+    outline: 0px;
+}
+.Contacto_info .Contacto_label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.Contacto_info .Contacto_label:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #2ecece;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+.Contacto_label_txt{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: #515A5A;
+    left: 1rem;
+}
+.Contacto_info_txt:focus + .Contacto_label .Contacto_label_txt,.Contacto_info_txt:valid + .Contacto_label .Contacto_label_txt{
+    transform: translateY(-100%);
+    font-size: 14px;
+    color:#1B4F72
+}
+.Contacto_info_txt:focus + .Contacto_label:after, .Contacto_info_txt:valid + .Contacto_label:after{
+    transform: translateX(0%);
+}
+.Mensaje{
+    width: 100%;
+    height: 100px;
+}
+.Contacto_label_txt_Mensaje{
+    position: absolute;    
+    top: 20px;
+    left: 1rem;
+    transition: all 0.3s ease;
+    color: #515A5A;
+}
+.Contacto_info_txt:focus + .Contacto_label .Contacto_label_txt_Mensaje,.Contacto_info_txt:valid + .Contacto_label .Contacto_label_txt_Mensaje{
+    transform: translateY(-65%);
+    font-size: 14px;
+    color:#1B4F72
+}
+.Contacto_info_txt:focus + .Contacto_label:after, .Contacto_info_txt:valid + .Contacto_label:after{
+    transform: translateX(0%);
+}
+.Contacto_enviar{
+    border-radius: 5px;
+    border: 1px solid #278AEE;
+    background-color: #278AEE;
+    text-decoration: none;
+    color: white;
+    line-height: 5rem;    
+    width: 144px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

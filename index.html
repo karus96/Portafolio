@@ -1,68 +1,79 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="wclassth=device-wclassth">
         <title>Portafolio Ricardo José Apuy Muñoz</title>                       
+        <link rel="stylesheet" href="CSS/reset.css"> 
+        <link rel="stylesheet" href="CSS/style.css">    
+        <link rel="stylesheet" href="CSS/header.css">    
         <link rel="stylesheet" href="CSS/introduccion.css">     
         <link rel="stylesheet" href="CSS/SobreMi.css">    
         <link rel="stylesheet" href="CSS/skills.css">    
+        <link rel="stylesheet" href="CSS/hobbies.css">    
+        <link rel="stylesheet" href="CSS/formacion.css">    
+        <link rel="stylesheet" href="CSS/experiencias.css">  
+        <link rel="stylesheet" href="CSS/contacto.css">  
+        <link rel="stylesheet" href="CSS/footer.css">  
     </head>
     <body>
-        <nav class="navbar">                          
-              <ul>
-                <li>Ricardo José Apuy Muñoz</li>
-                <li class="navbar_item">
-                  <a class="navbar_link" href="#">Sobre mi</a>
-                </li>
-                <li class="navbar_item">
-                  <a class="navbar_link" href="#">Skills</a>
-                </li>
-                <li class="navbar_item">
-                  <a class="navbar_link" href="#">Hobbies</a>
-                </li>
-                <li class="navbar_item">
-                    <a class="navbar_link" href="#">Formación</a>
-                </li>
-                <li class="navbar_item">
-                    <a class="navbar_link" href="#">Proyectos</a>
-                </li>
-                <li class="navbar_item">
-                    <a class="navbar_link" href="#">Contacto</a>
-                </li>
-              </ul>        
-            </div>
-        </nav>
+        <header class="Header">
+            <div class="Container">
+                <h3>
+                    <a class="Header_titulo" href="#">Ricardo José Apuy Muñoz</a>
+                 </h3>
+                 <nav class="Header">                          
+                     <a class="Header_link" href="#">Sobre mi</a>
+                     <a class="Header_link" href="#">Skills</a>
+                     <a class="Header_link" href="#">Hobbies</a>
+                     <a class="Header_link" href="#">Formación</a>
+                     <a class="Header_link" href="#">Proyectos</a>
+                     <a class="Header_link" href="#">Contacto</a>                              
+               </nav>
+            </div>            
+        </header>
+        <hr size="1px" color="black" />
         <main>
-            <div id="Introduccion">
-                <h1 id="Introduccion_Titulo">Hola, mi nombre es Ricardo Apuy y me gusta desarrollar juegos</h1>
-                <p id="Introduccion_texto">Soy formado en la ...To sort everything out, it is worth mentioning that some
-                     part of the formal action immediately changes the principles of The Behavior of Fundamental Development
-                      (Francesco Aldrich in The Book of the Crucial Component) 
-                </p>
-                <img src="img/blank-profile-picture-973460_960_720.webp" alt="" id="Introduccion_imagen">
-                <ul>
-                    <li><a href="https://github.com/karus96">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/ricardo-apuy-a1b07b18a/">Linkedin</a></li>
-                    <li><a href="docs/Curriculum-Ricardo Apuy.pdf">Curriculum</a></li>
-                </ul>
+            <div class="Introduccion">
+                <div class="Introduccion_Titulo">
+                    <h1>Hola, mi nombre es Ricardo Apuy y me gusta desarrollar juegos</h1>    
+                </div>   
+                <div  class="Introduccion_texto">
+                    <p>Soy formado en la ...To sort everything out, it is worth mentioning that some
+                        part of the formal action immediately changes the principles of The Behavior of Fundamental Development
+                        (Francesco Aldrich in The Book of the Crucial Component) 
+                    </p>  
+                </div>                 
+                <div class="Introduccion_informacion">
+                    <a class="Introduccion_informacion_link" href="https://github.com/karus96">GitHub</a>
+                    <a class="Introduccion_informacion_link" href="https://www.linkedin.com/in/ricardo-apuy-a1b07b18a/">Linkedin</a>
+                    <a class="Introduccion_informacion_link" href="docs/Curriculum-Ricardo Apuy.pdf">Curriculum</a>
+                </div>   
+                <div class="Introduccion_imagen"></div>
+            </div>            
+            <div class="SobreMi">
+                <h1 class="SobreMi_titulo">Sobre mi</h1>
+                <p class="SobreMi_texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta 
+                    odio possimus quibusdam atque!
+                    Consequatur, nulla inventore iste saepe tenetur nemo impedit illum porro asperiores repellat ea
+                    voluptate deserunt id.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta odio possimus quibusdam atque!
+                    Consequatur, nulla inventore iste saepe tenetur nemo impedit illum porro asperiores repellat ea
+                    voluptate deserunt id.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta odio possimus quibusdam atque!
+                    Consequatur, nulla inventore iste saepe tenetur nemo impedit illum porro asperiores repellat ea
+                    voluptate deserunt id.
+                </p>                
+                <img class="SobreMi_img" src="img/firma ejemplo.png" alt="" >
             </div>
-            <div id="SobreMi">
-                <h1 id="SobreMi_titulo">Sobre mi</h1>
-                <p id="SobreMi_texto">Soy formado en la ...To sort everything out, it is worth mentioning that some
-                     part of the formal action immediately changes the principles of The Behavior of Fundamental Development
-                      (Francesco Aldrich in The Book of the Crucial Component) 
-                </p>
-                <img id="SobreMi_img" src="img/firma ejemplo.png" alt="" >
-            </div>
-            <div id="Skills">
-                <H1 id="Skills_titulo">Skills</H1>
-                <div id="Skills_cards">
+            <div class="Skills">
+                <H1 class="Skills_titulo">Skills</H1>
+                <div class="Skills_cards">
                     <div class="Skills_card">                   
                         <div class="Skills_card_cuerpo">
                             <h4 class="Skills_card_titulo">Lenguajes de programación</h4>
                             <p class="Skills_card_texto">He desarrollado un sistema de gestion en C# con una base de datos MySQL y un sistema para gestionar un mariposario (pagina web de control)</p>                      
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/Java.png" alt="Card image cap">
                             <img class="Skills_card_imagenes_img" src="img/c.png" alt="Card image cap">
                           </div>                      
@@ -72,8 +83,10 @@
                             <h4 class="Skills_card_titulo">Tecnologias web</h4>
                             <p class="Skills_card_texto">He desarrollado una tienda virtual, un encriptador, un juego del ahorcado y mi pagina de portafolio de proyectos</p>                      
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/HTML icon.png" alt="Card image cap">
+                            <img class="Skills_card_imagenes_img" src="img/js.png" alt="Card image cap">
+                            <img class="Skills_card_imagenes_img" src="img/css.png" alt="Card image cap">                            
                             <img class="Skills_card_imagenes_img" src="img/Firebase.png" alt="Card image cap">
                           </div>                      
                     </div>
@@ -82,32 +95,40 @@
                             <h4 class="Skills_card_titulo">Sistemas operativos</h4>
                             <p class="Skills_card_texto">He utilizado windows desde la version windows 98 hasta windos 10, ademas del sistema de Ubuntu</p>                      
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/Windows.png" alt="Card image cap">
                             <img class="Skills_card_imagenes_img" src="img/ubuntu-logo.png" alt="Card image cap">
                           </div>                      
                     </div>
                     <div class="Skills_card">                   
                         <div class="Skills_card_cuerpo">
-                            <h4 class="Skills_card_titulo">Edicion de imagen y modelado 3D</h4>
-                            <p class="Skills_card_texto">He utilizado las herramientas de photoshop y gim para adaptar o crear arte para proyectos de videojuegos. 
-                                <br>En estos momentos estoy llevando un cursos de blender donde sus primeros avanzes ya son visibles.
+                            <h4 class="Skills_card_titulo">Edicion de imagen</h4>
+                            <p class="Skills_card_texto">He utilizado las herramientas de photoshop y gim para adaptar o crear arte para proyectos de vclasseojuegos.                                 
                                 <br>He utilizado la herramienta de Lunacy para crear sketch de los proyectos a realizar</p>                      
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/photoshop.png" alt="Card image cap">
-                            <img class="Skills_card_imagenes_img" src="img/GIMP.png" alt="Card image cap">
-                            <img class="Skills_card_imagenes_img" src="img/blender.png" alt="Card image cap">
+                            <img class="Skills_card_imagenes_img" src="img/GIMP.png" alt="Card image cap">                            
                             <img class="Skills_card_imagenes_img" src="img/Lunacy.png" alt="Card image cap">
+                          </div>                      
+                    </div>
+                    <div class="Skills_card">                   
+                        <div class="Skills_card_cuerpo">
+                            <h4 class="Skills_card_titulo">Modelado 3D</h4>
+                            <p class="Skills_card_texto">En estos momentos estoy llevando un cursos de blender donde sus primeros avanzes ya son visibles.
+                                <br>He utilizado la herramienta de Lunacy para crear sketch de los proyectos a realizar</p>                      
+                          </div>
+                          <div class="Skills_card_imagenes">
+                            <img class="Skills_card_imagenes_img" src="img/blender.png" alt="Card image cap">                            
                           </div>                      
                     </div>
                     <div class="Skills_card">                   
                         <div class="Skills_card_cuerpo">
                             <h4 class="Skills_card_titulo">Base de datos</h4>
                             <p class="Skills_card_texto">He utilizado las bases de datos SQL de Microsoft y Oracle para varios proyectos universitarios,
-                                 ademas de MySQL, MongoDB y las bases de datos proveidas por Firebase</p>                      
+                                 ademas de MySQL, MongoDB y las bases de datos proveclassas por Firebase</p>                      
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/SQL.png" alt="Card image cap">
                           </div>                      
                     </div>
@@ -115,9 +136,9 @@
                         <div class="Skills_card_cuerpo">
                             <h4 class="Skills_card_titulo">Ofimatica y gestion</h4>
                             <p class="Skills_card_texto">He utilizado las herramientas de Microsoft Office desde la version disponible en windows 98 hasta la actual. 
-                                <br>En el proyecto final de la universidad, se ha gestionado atravez de Jira<br>He usado la herramienta de Trello para el desarrollo de proyectos personales </p>
+                                <br>En el proyecto final de la universclassad, se ha gestionado atravez de Jira<br>He usado la herramienta de Trello para el desarrollo de proyectos personales </p>
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/Office.png" alt="Card image cap">
                             <img class="Skills_card_imagenes_img" src="img/jira.png" alt="Card image cap">
                             <img class="Skills_card_imagenes_img" src="img/treello.png" alt="Card image cap">
@@ -129,121 +150,201 @@
                             <p class="Skills_card_texto">He utilizado las herramientas de Unity para el desarrollo de varios proyectos de aprendisaje y el proyecto final de la U
                                 <br>He desarrollado varios proyectos con el RPG Maker MV aplicando manuales de juego de Dungeon and Dragons</p>
                           </div>
-                          <div id="Skills_card_imagenes">
+                          <div class="Skills_card_imagenes">
                             <img class="Skills_card_imagenes_img" src="img/unity-icon-png-3.png" alt="Card image cap">
                             <img class="Skills_card_imagenes_img" src="img/RPG-Maker-MV-logo-1.png" alt="Card image cap">                        
                           </div>                      
                     </div>
                 </div>               
             </div>
-            <div id="Hobbies">
-                <h4 id="Hobbies_titulo">Hobbies</h4>
-                <div id="Hobbies_card">
-                    <img id="Hobbies_img" src="" alt="">
-                    <p id="Hobbies_texto">Dungeon and dragons</p>
-                </div>
-                <div id="Hobbies_card">
-                    <img id="Hobbies_img" src="" alt="">
-                    <p id="Hobbies_texto">Leer</p>
-                </div>
-                <div id="Hobbies_card">
-                    <img id="Hobbies_img" src="" alt="">
-                    <p id="Hobbies_texto">Escuchar musica</p>
-                </div>
-                <div id="Hobbies_card">
-                    <img id="Hobbies_img" src="" alt="">
-                    <p id="Hobbies_texto">Jugad videojuegos</p>
-                </div>
-                <div id="Hobbies_card">
-                    <img id="Hobbies_img" src="" alt="">
-                    <p id="Hobbies_texto">Crear historias</p>
-                </div>
+            <div class="Hobbies">
+                <h4 class="Hobbies_titulo">Hobbies</h4>
+                <div class="Hobbies_cards">                    
+                    <div class="Hobbies_card">
+                        <img class="Hobbies_img" src="img/d&d.png" alt="">
+                        <p class="Hobbies_texto">Dungeon and dragons</p>
+                    </div>
+                    <div class="Hobbies_card">
+                        <img class="Hobbies_img" src="img/leer.png" alt="">
+                        <p class="Hobbies_texto">Leer</p>
+                    </div>
+                    <div class="Hobbies_card">
+                        <img class="Hobbies_img" src="img/musica.png" alt="">
+                        <p class="Hobbies_texto">Escuchar musica</p>
+                    </div>
+                    <div class="Hobbies_card">
+                        <img class="Hobbies_img" src="img/videojuegos.png" alt="">
+                        <p class="Hobbies_texto">Jugar videojuegos</p>
+                    </div>
+                    <div class="Hobbies_card">
+                        <img class="Hobbies_img" src="img/historias.png" alt="">
+                        <p class="Hobbies_texto">Crear historias</p>
+                    </div>
+                    <div class="Hobbies_card">
+                        <img class="Hobbies_img" src="img/cocinar.png" alt="">
+                        <p class="Hobbies_texto">Cocinar</p>
+                    </div>
+                </div>                
             </div>
-            <div id="Formacion">
-                <h4 id="Formacion_titulo">Hobbies</h4>
-                <div id="Formacion_card">
-                    <img id="Formacion_img" src="" alt="">
-                    <p id="Formacion_texto">Colegio tecnico profesional de san sebastian</p>
-                </div>
-                <div id="Formacion_card">
-                    <img id="Formacion_img" src="" alt="">
-                    <p id="Formacion_texto">INA</p>
-                </div>
-                <div id="Formacion_card">
-                    <img id="Formacion_img" src="" alt="">
-                    <p id="Formacion_texto">Universidad Fidélitas</p>
-                </div>
-                <div id="Formacion_card">
-                    <img id="Formacion_img" src="" alt="">
-                    <p id="Formacion_texto">Undemy</p>
-                </div>
-                <div id="Formacion_card">
-                    <img id="Formacion_img" src="" alt="">
-                    <p id="Formacion_texto">Alura</p>
-                </div>
+            <div class="Formacion">
+                <h4 class="Formacion_titulo">Formacion académica</h4>
+                <div class="Formacion_cards">                    
+                    <div class="Formacion_card">
+                        <div class="Formacion_img">
+                            <img class="Formacion_img_img" src="img/colegio.png" alt="">
+                        </div>                          
+                        <p class="Formacion_texto">CTP de San Sebastián
+                            <br> Bachillerato
+                        </p>
+                    </div>
+                    <div class="Formacion_card">
+                        <div class="Formacion_img">
+                            <img class="Formacion_img_img" src="img/ina.png" alt="">
+                        </div>                        
+                        <p class="Formacion_texto">INA</p>
+                    </div>
+                    <div class="Formacion_card">
+                        <div class="Formacion_img">
+                            <img class="Formacion_img_img" src="img/u_fidelitas.png" alt="">
+                        </div>                       
+                        <p class="Formacion_texto">Universidad Fidélitas
+                            <br>En curso
+                        </p>
+                    </div>
+                    <div class="Formacion_card">
+                        <div class="Formacion_img">
+                            <img class="Formacion_img_img" src="img/udemy.png" alt="">    
+                        </div>                        
+                        <p class="Formacion_texto">Undemy
+                            <br>Unity y Javascript 
+                        </p>
+                    </div>
+                    <div class="Formacion_card">
+                        <div class="Formacion_img">
+                            <img class="Formacion_img_img" src="img/Alura.png" alt="">
+                        </div>                        
+                        <p class="Formacion_texto">Alura
+                            <br>En curso
+                        </p>
+                    </div>
+                </div>                
             </div>
-            <div id="Experiencia">
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Encriptador de Texto</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
+            <div class="Experiencia">
+                <h2 class="Experiencia_titulo">Experiencia profesional</h2>
+                <div class="Experiencia_cards">
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Derecha" src="img/encriptador.png" alt="">
+                        <div class="Experiencia_txt Izquierda">
+                            <p class="Experiencia_text_titulo">Encriptador de Texto</p>
+                            <p class="Experiencia_text_origen">Challenge Alura Codificador</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                            <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>                   
+                    </div>
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Izquierda" src="img/ahorcado.png" alt="">
+                        <div class="Experiencia_txt Derecha">
+                            <p class="Experiencia_text_titulo">Juego creado con HTML y Javascript</p>
+                            <p class="Experiencia_text_origen">Challenge Alura Codificador</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                            <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>
+                    </div>
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Derecha" src="" alt="">
+                        <div class="Experiencia_txt Izquierda">
+                            <p class="Experiencia_text_titulo">Pocman</p>
+                            <p class="Experiencia_text_origen">Juego desarrollado en Unity como practica de Udemy</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                            <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>
+                    </div>
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Izquierda" src="" alt="">
+                        <div class="Experiencia_txt Derecha">
+                            <p class="Experiencia_text_titulo">Tetris</p>
+                            <p class="Experiencia_text_origen">Juego desarrollado en Unity como practica de Udemy</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                            <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>
+                    </div>
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Derecha" src="" alt="">
+                        <div class="Experiencia_txt Izquierda">
+                            <p class="Experiencia_text_titulo">Buscaminas</p>
+                            <p class="Experiencia_text_origen">Juego desarrollado en Unity como practica de Udemy</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                            <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>
+                    </div>
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Izquierda" src="" alt="">
+                        <div class="Experiencia_txt Derecha">
+                            <p class="Experiencia_text_titulo">Escape del laberinto</p>
+                            <p class="Experiencia_text_origen">Juego desarrollado en el RPG Maker MV</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                            <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>
+                    </div>
+                    <div class="Experiencia_card">
+                        <img class="Experiencia_img Derecha" src="" alt="">
+                        <div class="Experiencia_txt Izquierda">
+                            <p class="Experiencia_text_titulo">Casa de la muerto</p>
+                            <p class="Experiencia_text_origen">Juego desarrollado en el RPG Maker MV con base en La casa de la Muerte campaña del juego D&D</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>
+                              <a class="Experiencia_text_btnDemo"href="">Demo</a>
+                        </div>
+                    </div>
+                    <div class="Experiencia_card">
+                        <iframe class="Experiencia_img Izquierda"  src="https://www.youtube.com/embed/R_90jXH0ICE" title="YouTube vclasseo player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="Experiencia_txt Derecha">
+                            <p class="Experiencia_text_titulo">Tartaros</p>
+                            <p class="Experiencia_text_origen">Juego desarrollado Unity como proyecto final de la U</p>
+                            <a class="Experiencia_text_btnRepo"href="">Repositorio</a>                        
+                        </div>                    
+                    </div>
                 </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Juego del ahorcado</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
-                </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Pocman</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
-                </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Buscaminas</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
-                </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Tetris</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
-                </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">La casa maldita</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
-                </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Escape del laberinto</p>
-                    <a href="">Repositorio</a>
-                    <a href="">Demo</a>
-                </div>
-                <div id="Experiencia_card">
-                    <img id="Experiencia_img" src="" alt="">
-                    <p id="Experiencia_texto">Tartaros</p>
-                    <a href="">Repositorio</a>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R_90jXH0ICE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div id="Contacto">
-                <p id="Contacto_texto">¿Quieres contactarme? <br>
-                Complete el siguiente formulario y me pondré en contaco con usted lo antes posible</p>
-                <input id="Contacto_nombre" type="text">
-                <input id="Contacto_email" type="email">
-                <input id="Contacto_asunto" type="text">
-                <textarea name="" id="Contacto_mensaje" cols="30" rows="10"></textarea>
-                <button id="Contacto_enviar">Enviar mensaje</button>
+            </div>                
+            <div class="Contacto">
+                <img class="Contacto_img" src="img/contacto.png" alt="imagen">
+                
+                <form class="Container">
+                    <p class="Contacto_titulo">Contacto</p>
+                    <p class="Contacto_texto">¿Quieres contactarme? <br>
+                    Complete el siguiente formulario y me pondré en contaco con usted lo antes posible</p>
+                   
+                    <div class="Contacto_info">
+                        <input class="Contacto_info_txt" type="text" required>
+                        <label class="Contacto_label">
+                            <span class="Contacto_label_txt">Nombre</span>
+                        </label>
+                    </div>
+
+                    <div class="Contacto_info">
+                        <input class="Contacto_info_txt" type="text" required>
+                        <label class="Contacto_label">
+                            <span class="Contacto_label_txt">Email</span>
+                        </label>
+                    </div>
+
+                    <div class="Contacto_info">
+                        <input class="Contacto_info_txt" type="text" required>
+                        <label class="Contacto_label">
+                            <span class="Contacto_label_txt">Asunto</span>
+                        </label>
+                    </div>
+                    <div class="Contacto_info Mensaje">
+                        <textarea name="" class="Contacto_info_txt"  required></textarea>
+                        <label class="Contacto_label">
+                            <span class="Contacto_label_txt_Mensaje">Mensaje</span>
+                        </label>
+                    </div>
+                    <button class="Contacto_enviar">Enviar mensaje</button>
+                </form>  
             </div>
         </main>
-        <footer id="footer">
-            <p id="footer_texto">Desarrollado por Ricardo Apuy <br>2022</p>
+        <footer class="footer">
+            <p class="footer_texto">Desarrollado por Ricardo Apuy <br>2022</p>
         </footer>
     </body>    
 </html>

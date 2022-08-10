@@ -1,44 +1,32 @@
-.Skills{
-
+.Hobbies{
     padding: 2rem;
 }
-.Skills_titulo{
+.Hobbies_titulo{
     text-align: center;
     font-size: 2rem;
     line-height: 5rem;
 }
-.Skills_cards{
+.Hobbies_cards{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     justify-content:  space-between;
 }
 
-.Skills_card{  
-    width: 400px;    
+.Hobbies_card{  
+    width: 200px;    
     padding: 2rem;    
     margin: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 10px 2px #00000010;
-    
-    
+    text-align: center;
 }
-.Skills_card_cuerpo{   
-    
-}
-.Skills_card_titulo{    
+.Hobbies_card_texto{    
     font-size: 1.5rem;
     line-height: 2rem;
 }
-.Skills_card_texto{    
-    line-height: 1.5rem;
-}
-.Skills_card_imagenes{  
-    padding-top: 1rem;
-    text-align: center;
-    
-}
-.Skills_card_imagenes_img{
+.Hobbies_img{
+    padding-top: 1rem;  
     width: 70px;  
     margin: 0.05rem;  
 }

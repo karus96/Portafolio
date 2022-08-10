@@ -1,3 +1,40 @@
-#Introduccion_imagen{
-    width: 25%;
+.Introduccion{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.33% 33.33% 33.33%;   
+    margin-bottom: 5rem;
+    padding-left: 5%;
+}
+.Introduccion_titulo{
+    
+    grid-column: 1/1;
+    grid-row:1/3 ;   
+    font-size: 2.5rem;
+}
+.Introduccion_texto{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    line-height: 1.25rem;
+}
+.Introduccion_imagen{        
+    grid-column: 2/2;
+    grid-row:1/4;               
+    width: 368px;
+    height: 368px;
+    background-image: url('../img/perfil.png');
+    background-size: cover;
+    border-radius: 50%;   
+    margin: 0 auto;
+}
+.Introduccion_Informacion{    
+    grid-column: 1/1;
+    grid-row: 3/3;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;    
+}
+.Introduccion_Informacion_link{
+    text-decoration: none;
+    color: #000000;	
 }

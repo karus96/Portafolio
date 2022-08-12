@@ -1,21 +1,23 @@
 .Introduccion{
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 33.33% 33.33% 33.33%;   
-    margin-bottom: 5rem;
-    padding-left: 5%;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;     
+    padding-left: 5%;    
+    margin-bottom: 5%;
 }
-.Introduccion_titulo{
-    
+.Introduccion_titulo{    
     grid-column: 1/1;
     grid-row:1/3 ;   
-    font-size: 2.5rem;
+    font-size: 3.2rem;   
+    font-weight: bold; 
+    line-height: 3rem;      
 }
 .Introduccion_texto{
     grid-column: 1/1;
     grid-row: 2/2;
-    line-height: 1.25rem;
+    font-size:  2rem;   
+    padding-top: 5%;
 }
 .Introduccion_imagen{        
     grid-column: 2/2;
@@ -32,9 +34,68 @@
     grid-row: 3/3;
     display: flex;
     flex-direction: row;
-    justify-content:  space-between;    
+    justify-content: space-around
 }
 .Introduccion_Informacion_link{
     text-decoration: none;
     color: #000000;	
+    font-size:  2rem;
+    line-height: 26px;
+    padding-top: 10%;
 }
+@media  only screen and (max-width: 1024px)  {
+    .Introduccion{           
+    }
+    .Introduccion_titulo{    
+        font-size: 1.8rem;    
+        line-height: 20px;   
+        line-height: 1.5rem;          
+    }
+    .Introduccion_texto{
+        font-size:  1.5rem; 
+        padding-top: 0%;        
+    }
+    .Introduccion_imagen{
+        width: 146px;
+        height: 146px;
+    }
+    .Introduccion_Informacion_link{              
+        font-size:  1.2rem;                     
+        padding-top: 12%;        
+    }
+  }
+  @media  only screen and (max-width: 620px)  {
+    .Introduccion{        
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;    
+        height: 325px;              
+    }
+    .Introduccion_titulo{    
+        font-size: 1.7rem;                    
+        grid-column: 1/1;
+        grid-row:2/2;             
+        padding-top: 2.5%;
+        line-height: 1.5rem;  
+        margin-right: 1%;      
+    }
+    .Introduccion_texto{   
+        font-size: 1.2rem;                         
+        grid-column: 1/1;
+        grid-row:3/3;   
+        padding-top: 0%;        
+    }
+    .Introduccion_imagen{
+        grid-column: 1/1;
+        grid-row:1/1;  
+        width: 80px;
+        height: 80px;
+        margin: 0;        
+    }
+    .Introduccion_Informacion{
+        grid-column: 1/1;
+        grid-row:4/4;          
+    }
+    .Introduccion_Informacion_link{
+        padding-top: 15%;
+    }
+  }

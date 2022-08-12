@@ -1,3 +1,8 @@
 body{
-    background-color: #f5f5f5;
+    background-color: var(--colorPrimario);
 }
+:root {
+    --colorPrimario: #757575;
+    --colorSecundario: #7d8287;
+    --colorContraste: #dcdcdc;
+  }

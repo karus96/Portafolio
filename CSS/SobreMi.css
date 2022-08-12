@@ -1,5 +1,5 @@
 .SobreMi{
-    background-color: #eaf2fd;    
+    background-color: var(--colorPrimario);    
     }
 .SobreMi_titulo{       
     padding-left: 5%;
@@ -8,11 +8,16 @@
 }
 .SobreMi_texto{
     text-align: justify;
-    padding-right: 25%;
+    padding-right: 40%;
     padding-left: 5%;
     line-height: 1.25rem;
 }
 .SobreMi_img{
     padding-left: 5%;
-    width: 10%;
+    width: 15rem;
+}
+@media  only screen and (max-width: 1024px)  {
+    .SobreMi_texto{
+        padding-right: 11%;
+    }
 }

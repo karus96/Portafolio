@@ -1,9 +1,10 @@
 .Introduccion{
     margin-top: 2.5rem;
     display: grid;
+    height: 25%;
     grid-template-columns: 75% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;     
-    padding-left: 5%;    
+    padding-left: 1%;    
     margin-bottom: 5%;
 }
 .Introduccion_titulo{    
@@ -11,7 +12,7 @@
     grid-row:1/3 ;   
     font-size: 3.2rem;   
     font-weight: bold; 
-    line-height: 3rem;      
+    line-height: 3rem;          
 }
 .Introduccion_texto{
     grid-column: 1/1;
@@ -22,9 +23,9 @@
 .Introduccion_imagen{        
     grid-column: 2/2;
     grid-row:1/4;               
-    width: 368px;
-    height: 368px;
-    background-image: url('../img/perfil.png');
+    width: 300px;
+    height: 300px;
+    background-image: url('../img/perfil.jpeg');
     background-size: cover;
     border-radius: 50%;   
     margin: 0 auto;
@@ -41,7 +42,11 @@
     color: #000000;	
     font-size:  2rem;
     line-height: 26px;
-    padding-top: 10%;
+    padding-top: 10%;    
+}
+.Introduccion_informacion_img{
+    max-width: 25px;    
+    max-height: 25px;
 }
 @media  only screen and (max-width: 1024px)  {
     .Introduccion{           
@@ -98,4 +103,5 @@
     .Introduccion_Informacion_link{
         padding-top: 15%;
     }
+
   }

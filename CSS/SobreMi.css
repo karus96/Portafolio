@@ -1,16 +1,18 @@
 .SobreMi{
-    background-color: var(--colorPrimario);    
+    background-color: var(--colorSecundario);    
     }
 .SobreMi_titulo{       
-    padding-left: 5%;
+    padding-left: 1%;    
     font-size: 2rem; 
     line-height: 5rem;
 }
 .SobreMi_texto{
     text-align: justify;
-    padding-right: 40%;
-    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 1%;    
     line-height: 1.25rem;
+    font-size: 1.2rem;
+    
 }
 .SobreMi_img{
     padding-left: 5%;

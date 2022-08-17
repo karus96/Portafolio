@@ -2,7 +2,7 @@ body{
     background-color: var(--colorPrimario);
 }
 :root {
-    --colorPrimario: #757575;
-    --colorSecundario: #7d8287;
-    --colorContraste: #dcdcdc;
+    --colorPrimario: #dcdcdc;
+    --colorSecundario: #bfc9ca;
+    --colorContraste: #f4f6f7;
   }
